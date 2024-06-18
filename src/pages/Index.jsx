@@ -33,6 +33,28 @@ const Index = () => {
             <Image src="https://via.placeholder.com/300" alt="Cat 6" />
           </SimpleGrid>
         </Box>
+
+        <Box>
+          <Heading as="h2" size="xl" mb={4}>Popular Cat Brands</Heading>
+          <Text fontSize="md" mb={4}>Discover some of the most popular cat brands that offer quality products for your feline friends.</Text>
+          <SimpleGrid columns={[1, 2, 3]} spacing={4}>
+            <Box>
+              <Image src="https://via.placeholder.com/300" alt="Brand 1" />
+              <Heading as="h3" size="md" mt={2}>Brand 1</Heading>
+              <Text fontSize="sm">Description of Brand 1.</Text>
+            </Box>
+            <Box>
+              <Image src="https://via.placeholder.com/300" alt="Brand 2" />
+              <Heading as="h3" size="md" mt={2}>Brand 2</Heading>
+              <Text fontSize="sm">Description of Brand 2.</Text>
+            </Box>
+            <Box>
+              <Image src="https://via.placeholder.com/300" alt="Brand 3" />
+              <Heading as="h3" size="md" mt={2}>Brand 3</Heading>
+              <Text fontSize="sm">Description of Brand 3.</Text>
+            </Box>
+          </SimpleGrid>
+        </Box>
       </VStack>
     </Container>
   );
